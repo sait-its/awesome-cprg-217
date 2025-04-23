@@ -133,8 +133,10 @@ Integrate Python scripting with a powerful automation engine.
 ## Tools and Environment
 
 *   **Python 3.10+:** Ensure you have a recent version of Python 3 installed.
+*   **Python package management tools:** pip, uv.
+*   **Python virtual environments:** venv, uv.
 *   **Text Editor/IDE:** A good editor like VS Code, PyCharm, Sublime Text, or NeoVim is recommended.
-*   **Terminal Emulator:** Windows Terminal, WezTerm, kitty, Ghostty, iTerm2
+*   **Terminal Emulator:** Windows Terminal, WezTerm, kitty, Ghostty, iTerm2.
 *   **Operating Systems:** Access to both a Linux environment (physical machine, or VM in VMware Workstaion) and a Windows environment will be necessary to complete all units.
 *   **Required Libraries:** Specific Python libraries like `os`, `sys`, `subprocess`, `json`, `pywin32` (for Windows), `socket`, and potentially Ansible-related Python libraries will be used.
 

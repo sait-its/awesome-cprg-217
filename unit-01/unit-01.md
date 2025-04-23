@@ -24,6 +24,10 @@ https://github.com/sait-lab/devops/blob/main/GitHub%20Key-Based%20SSH%20Authenti
 
 https://docs.astral.sh/uv/
 
+### Python Virtual Environments: A Primer
+
+https://realpython.com/python-virtual-environments-a-primer/
+
 ### 📚 Automate the Boring Stuff with Python (free)
 
 Chapter 1 - 3 of https://automatetheboringstuff.com/ 
