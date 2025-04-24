@@ -29,7 +29,7 @@ Familiarity with using a command-line interface (Terminal in Linux/macOS or Comm
 - [Beyond the Basic Stuff with Python (free online ebook)](https://inventwithpython.com/beyond/)
 - [Real Python Tutorials](https://realpython.com/)
 
-## Course Outline
+## Learning Outcomes
 
 ---
 
@@ -66,6 +66,7 @@ Master techniques for working with data within your scripts.
 *   Sorting data effectively.
 *   Structuring code with well-defined functions for data processing tasks.
 *   Understanding key terminology and concepts related to data types and structures.
+*   Working with JSON.
 
 ---
 
