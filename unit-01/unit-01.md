@@ -30,7 +30,7 @@ https://realpython.com/python-virtual-environments-a-primer/
 
 ### 📚 Automate the Boring Stuff with Python (free)
 
-Chapter 1 - 3 of https://automatetheboringstuff.com/ 
+Chapter 1, 2, 3, 6, 9 of https://automatetheboringstuff.com/ 
 
 ### 📚 Python Crash Course
 
