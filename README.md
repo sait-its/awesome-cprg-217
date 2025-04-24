@@ -44,6 +44,8 @@ Get started with the essentials of Python scripting.
 *   Executing basic Linux commands from within Python scripts.
 *   Reviewing common programming components and best practices.
 
+[Resources](./unit-01/unit-01.md)
+
 ---
 
 ### **Unit 2: Error Handling**
@@ -54,6 +56,8 @@ Learn how to make your scripts more reliable by anticipating and handling errors
 *   Identifying potential runtime errors in your code.
 *   Validating user input to prevent errors.
 *   Implementing error handling using `try`, `except`, and `finally` blocks.
+
+[Resources](./unit-02/unit-02.md)
 
 ---
 
