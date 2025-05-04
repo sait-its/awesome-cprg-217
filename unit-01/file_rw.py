@@ -1,88 +1,68 @@
-import sys  # Import sys to use sys.exit for cleaner error handling
+# This example demonstrates various file operations in Python
+# It shows different methods to read and write both text and binary files
+# Using pathlib for modern, cross-platform path handling
 
-"""
-Reads item prices from an input file (Receipt.txt), calculates the
-grand total, and writes the total to an output file (GrandTotal.txt).
-"""
-
-# --- Configuration: Define Constant Variables for Filenames ---
-INPUT_FILENAME = "Receipt.txt"
-OUTPUT_FILENAME = "GrandTotal.txt"
-
-# --- Main Logic ---
-grand_total = 0
-
-# --- Read Input File and Calculate Total ---
-try:
-    print(f"Attempting to read file: {INPUT_FILENAME}")
-    # Use 'with' statement for safe file handling (automatically closes file)
-    with open(INPUT_FILENAME, "r") as infile:
-        # Read each line from the input file
-        for line_num, line in enumerate(
-            infile, 1
-        ):  # Start line numbering at 1 for messages
-            # Remove leading/trailing whitespace (like newline characters)
-            cleaned_line = line.strip()
-
-            # Skip empty lines
-            if not cleaned_line:
-                continue
-
-            # Split the line into parts based on whitespace
-            parts = cleaned_line.split()
-
-            # Expecting two parts: item name and price
-            if len(parts) == 2:
-                item_name = parts[0]
-                price_str = parts[1]
-
-                # Try to convert the price part to an integer
-                try:
-                    price = int(price_str)
-                    grand_total += price  # Add the price to the running total
-                except ValueError:
-                    # Handle cases where the second part is not a valid number
-                    print(
-                        f"Warning: Invalid price format on line {line_num} in {INPUT_FILENAME}: '{price_str}'. Skipping line."
-                    )
-            else:
-                # Handle lines that don't have exactly two parts
-                print(
-                    f"Warning: Malformed line {line_num} in {INPUT_FILENAME}: '{cleaned_line}'. Skipping line."
-                )
-
-    print(f"Finished reading {INPUT_FILENAME}. Calculated total: {grand_total}")
-
-except FileNotFoundError:
-    print(f"Error: Input file '{INPUT_FILENAME}' not found in the current directory.")
-    print(
-        "Please make sure the file exists and the script is run from the correct directory."
-    )
-    sys.exit(1)  # Exit the script with an error code
-except Exception as e:
-    # Catch other potential file reading errors
-    print(f"An unexpected error occurred while reading {INPUT_FILENAME}: {e}")
-    sys.exit(1)  # Exit the script with an error code
+from pathlib import Path
 
 
-# --- Format the Output String ---
-# Use an f-string for easy formatting, incorporating the calculated total
-output_string = f"The grand total of {INPUT_FILENAME} is ${grand_total}"
+def main():
+    # Create a Path object for our text file
+    # Path is more modern and cross-platform compatible than old-style string paths
+    text_file_path = Path("sample_text.txt")
+    binary_file_path = Path("sample_binary.dat")
+
+    # =============== TEXT FILE OPERATIONS ===============
+
+    # --- Example 1: Writing to a text file using context manager (recommended way) ---
+    # The 'with' statement ensures the file is properly closed after we're done
+    with open(text_file_path, "w", encoding="utf-8") as file:
+        file.write("Hello, Python learners!\n")
+        file.write("This is line 2 of our text file.\n")
+
+    # --- Example 2: Reading from a text file using context manager ---
+    print("\n=== Reading text file with context manager ===")
+    with open(text_file_path, "r", encoding="utf-8") as file:
+        # Read entire file content at once
+        content = file.read()
+        print("File contents:")
+        print(content)
+
+    # --- Example 3: Reading text file line by line ---
+    print("\n=== Reading text file line by line ===")
+    with open(text_file_path, "r", encoding="utf-8") as file:
+        for line_number, line in enumerate(file, 1):
+            print(f"Line {line_number}: {line.strip()}")
+
+    # --- Example 4: File operations without context manager (not recommended) ---
+    # Note: Always remember to close the file when not using context manager
+    print("\n=== Writing/Reading without context manager ===")
+    file = open(text_file_path, "a", encoding="utf-8")
+    file.write("Line added without context manager.\n")
+    file.close()  # Important: manually close the file!
+
+    # =============== BINARY FILE OPERATIONS ===============
+
+    # --- Example 5: Writing binary data ---
+    # Binary files are useful for non-text data like images, audio, etc.
+    print("\n=== Binary file operations ===")
+    binary_data = bytes([65, 66, 67, 68, 69])  # ASCII values for 'ABCDE'
+
+    with open(binary_file_path, "wb") as binary_file:
+        binary_file.write(binary_data)
+
+    # --- Example 6: Reading binary data ---
+    with open(binary_file_path, "rb") as binary_file:
+        read_binary = binary_file.read()
+        print(f"Binary content as bytes: {read_binary}")
+        print(f"Binary content decoded to ASCII: {read_binary.decode('ascii')}")
+
+    # --- Example 7: Using pathlib methods ---
+    print("\n=== Pathlib operations ===")
+    print(f"Text file exists: {text_file_path.exists()}")
+    print(f"Text file size: {text_file_path.stat().st_size} bytes")
+    print(f"File suffix: {text_file_path.suffix}")
+    print(f"Absolute path: {text_file_path.absolute()}")
 
 
-# --- Write the Grand Total to the Output File ---
-try:
-    print(f"Attempting to write to file: {OUTPUT_FILENAME}")
-    # Open the output file in write mode ('w')
-    # This will create the file if it doesn't exist, or overwrite it if it does
-    with open(OUTPUT_FILENAME, "w") as outfile:
-        outfile.write(output_string + "\n")  # Add a newline for better file formatting
-
-    print(f"Successfully wrote grand total to {OUTPUT_FILENAME}.")
-
-except Exception as e:
-    # Catch potential file writing errors
-    print(f"An error occurred while writing to {OUTPUT_FILENAME}: {e}")
-    sys.exit(1)  # Exit the script with an error code
-
-print("Script completed successfully.")
+if __name__ == "__main__":
+    main()
