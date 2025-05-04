@@ -16,6 +16,10 @@ https://realpython.com/python-lbyl-vs-eafp/
 
 https://www.datacamp.com/tutorial/exception-handling-python
 
+### Python's raise: Effectively Raising Exceptions in Your Code
+
+https://realpython.com/python-raise-exception/
+
 ### 📚 Automate the Boring Stuff with Python (free)
 
 Chapter 1, 2, 3, 6, 9 of https://automatetheboringstuff.com/ 

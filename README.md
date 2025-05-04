@@ -49,7 +49,9 @@ Get started with the essentials of Python scripting.
 *   Executing basic Linux commands from within Python scripts.
 *   Reviewing common programming components and best practices.
 
-[Resources](./unit-01/unit-01.md)
+[Unit 1 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-01.html)
+
+[Unit 1 Resources](./unit-01/unit-01.md)
 
 ---
 
@@ -61,8 +63,12 @@ Learn how to make your scripts more reliable by anticipating and handling errors
 *   Identifying potential runtime errors in your code.
 *   Validating user input to prevent errors.
 *   Implementing error handling using `try`, `except`, and `finally` blocks.
+*   Raise and handle exceptions.
+*   Error Handling strategies (LBYL and EAFP).
 
-[Resources](./unit-02/unit-02.md)
+[Unit 2 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-02.html)
+
+[Unit 2 Resources](./unit-02/unit-02.md)
 
 ---
 
