@@ -10,6 +10,22 @@ This course will guide you through the process of building robust Python scripts
 
 https://sait-its.github.io/cprg-217/index.html
 
+## Resources and Discussions
+
+https://github.com/sait-its/awesome-cprg-217
+
+https://github.com/sait-its/awesome-cprg-217/discussions
+
+## Textbooks
+
+- [Automate the Boring Stuff with Python, 2nd Edition (free online ebook)](https://automatetheboringstuff.com/)
+- [Python Crash Course, 3rd Edition](https://nostarch.com/python-crash-course-3rd-edition)
+
+## Recommended Resources
+
+- [Beyond the Basic Stuff with Python (free online ebook)](https://inventwithpython.com/beyond/)
+- [Real Python Tutorials](https://realpython.com/)
+
 ## Prerequisites
 
 Before starting this course, you should have a solid understanding of Python fundamentals from CPRG 216, including:
@@ -23,17 +39,7 @@ Before starting this course, you should have a solid understanding of Python fun
 
 Familiarity with using a command-line interface (Terminal in Linux/macOS or Command Prompt/PowerShell in Windows) is also recommended.
 
-## Text Books
-
-- [Automate the Boring Stuff with Python, 2nd Edition (free online ebook)](https://automatetheboringstuff.com/)
-- [Python Crash Course, 3rd Edition](https://nostarch.com/python-crash-course-3rd-edition)
-
-## Recommended Resources
-
-- [Beyond the Basic Stuff with Python (free online ebook)](https://inventwithpython.com/beyond/)
-- [Real Python Tutorials](https://realpython.com/)
-
-## Learning Outcomes
+## Learning Units
 
 ---
 
