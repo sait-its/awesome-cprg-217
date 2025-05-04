@@ -6,6 +6,10 @@ Welcome to the CPRG 217 Scripting course! This course is designed to take your b
 
 This course will guide you through the process of building robust Python scripts for real-world applications. You will learn how to interact with operating systems (Linux and Windows), handle data effectively, manage errors gracefully, schedule tasks, and even integrate with automation tools like Ansible. By the end of this course, you will be equipped to automate repetitive tasks, manage system configurations, and build powerful scripting tools.
 
+## Presentations
+
+https://sait-its.github.io/cprg-217/index.html
+
 ## Prerequisites
 
 Before starting this course, you should have a solid understanding of Python fundamentals from CPRG 216, including:
@@ -37,6 +41,7 @@ Familiarity with using a command-line interface (Terminal in Linux/macOS or Comm
 
 Get started with the essentials of Python scripting.
 
+*   What is a Scripting Language
 *   Setting up a Python Development  environment.
 *   Writing and running your first Python scripts.
 *   Understanding scripting interfaces (command-line arguments).
