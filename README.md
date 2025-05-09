@@ -86,8 +86,10 @@ Master techniques for working with data within your scripts.
 *   Filtering data based on specific criteria.
 *   Sorting data effectively.
 *   Structuring code with well-defined functions for data processing tasks.
-*   Understanding key terminology and concepts related to data types and structures.
+*   Understanding key terminology and concepts related to data types and data structures.
 *   Working with JSON.
+
+[Unit 3 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-03.html)
 
 ---
 
