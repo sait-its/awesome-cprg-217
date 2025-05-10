@@ -141,9 +141,11 @@ Build more complex and scalable automation solutions.
 *   Developing scripts that run in sequence based on programming logic.
 *   Setting up and running a series of scheduled scripts automatically.
 
+[Unit 7 Resources](./unit-07/unit-07.md)
+
 ---
 
-### **Unit 8: Introduction to Configuration Management with Ansible**
+### **Unit 8: Configuration Management with Ansible**
 
 Integrate Python scripting with a powerful automation engine.
 
