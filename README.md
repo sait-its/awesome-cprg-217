@@ -12,9 +12,9 @@ https://sait-its.github.io/cprg-217/index.html
 
 ## Resources and Discussions
 
-https://github.com/sait-its/awesome-cprg-217
+[Resources: This repo](https://github.com/sait-its/awesome-cprg-217)
 
-https://github.com/sait-its/awesome-cprg-217/discussions
+[Discussions](https://github.com/sait-its/awesome-cprg-217/discussions)
 
 ## Textbooks
 
@@ -40,8 +40,6 @@ Before starting this course, you should have a solid understanding of Python fun
 Familiarity with using a command-line interface (Terminal in Linux/macOS or Command Prompt/PowerShell in Windows) is also recommended.
 
 ## Learning Units
-
----
 
 ### **Unit 1: Scripting Fundamentals**
 
@@ -104,6 +102,8 @@ Dive into interacting with the Linux operating system using Python.
     *   Gather system information (CPU, memory, disk usage).
     *   Execute common Linux system administration tasks.
 
+[Unit 4 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-04.html)
+
 ---
 
 ### **Unit 5: Automating Windows System Tasks**
@@ -117,6 +117,10 @@ Learn how to perform system administration tasks on Windows using Python.
     *   Gather Windows system information.
     *   Execute Windows system administration tasks.
 
+[Unit 5 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-05.html)
+
+[Unit 5 Resources](./unit-05/unit-05.md)
+
 ---
 
 ### **Unit 6: Scheduling Automated Tasks**
@@ -127,7 +131,9 @@ Make your scripts run automatically at specific times or intervals.
 *   Understanding Task Scheduler in Windows.
 *   Understanding the `Crontab` utility in Linux.
 *   Outlining the steps to create and manage `Cron` jobs.
-*   Creating scheduled tasks in `Crontab` using or for Python scripts.
+*   Creating scheduled tasks in `Crontab` using for Python scripts.
+
+[Unit 6 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-06.html)
 
 ---
 
@@ -140,6 +146,8 @@ Build more complex and scalable automation solutions.
 *   Understanding the principles of sending information between systems.
 *   Developing scripts that run in sequence based on programming logic.
 *   Setting up and running a series of scheduled scripts automatically.
+
+[Unit 7 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-07.html)
 
 [Unit 7 Resources](./unit-07/unit-07.md)
 
@@ -156,7 +164,7 @@ Integrate Python scripting with a powerful automation engine.
 
 ---
 
-## Tools and Environment
+### Tools and Environment
 
 *   **Python 3.10+:** Ensure you have a recent version of Python 3 installed.
 *   **Python package management tools:** pip, uv.
@@ -166,4 +174,6 @@ Integrate Python scripting with a powerful automation engine.
 *   **Operating Systems:** Access to both a Linux environment (physical machine, or VM in VMware Workstaion) and a Windows environment will be necessary to complete all units.
 *   **Required Libraries:** Specific Python libraries like `os`, `sys`, `subprocess`, `json`, `pywin32` (for Windows), `socket`, and potentially Ansible-related Python libraries will be used.
 
-Happy Scripting!
+---
+
+### 🥳📜 Happy Scripting!
