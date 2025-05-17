@@ -16,6 +16,10 @@ https://thepythoncode.com/article/send-receive-files-using-sockets-python
 
 https://github.com/sait-its/awesome-cprg-217/blob/main/unit-07/file-transfer-demo.md
 
+### socketserver — Creating Network Servers
+
+https://pymotw.com/3/socketserver/index.html
+
 ### 📚 Automate the Boring Stuff with Python (free)
 
 Chapter 9, 10 of https://automatetheboringstuff.com/ 
