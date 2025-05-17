@@ -6,25 +6,21 @@ Welcome to the CPRG 217 Scripting course! This course is designed to take your b
 
 This course will guide you through the process of building robust Python scripts for real-world applications. You will learn how to interact with operating systems (Linux and Windows), handle data effectively, manage errors gracefully, schedule tasks, and even integrate with automation tools like Ansible. By the end of this course, you will be equipped to automate repetitive tasks, manage system configurations, and build powerful scripting tools.
 
-## Presentations
+## Resources
 
-https://sait-its.github.io/cprg-217/index.html
+📖 [Links to slide decks](https://sait-its.github.io/cprg-217/index.html)
 
-## Resources and Discussions
+🗣️ [Discussions](https://github.com/sait-its/awesome-cprg-217/discussions)
 
-[Resources: This repo](https://github.com/sait-its/awesome-cprg-217)
+📚 Textbook [Automate the Boring Stuff with Python, 2nd Edition (free online ebook)](https://automatetheboringstuff.com/)
 
-[Discussions](https://github.com/sait-its/awesome-cprg-217/discussions)
+📚 Textbook [Python Crash Course, 3rd Edition](https://nostarch.com/python-crash-course-3rd-edition)
 
-## Textbooks
+📝 Recommended [Beyond the Basic Stuff with Python (free online ebook)](https://inventwithpython.com/beyond/)
 
-- [Automate the Boring Stuff with Python, 2nd Edition (free online ebook)](https://automatetheboringstuff.com/)
-- [Python Crash Course, 3rd Edition](https://nostarch.com/python-crash-course-3rd-edition)
+📝 Recommended [Real Python Tutorials](https://realpython.com/)
 
-## Recommended Resources
-
-- [Beyond the Basic Stuff with Python (free online ebook)](https://inventwithpython.com/beyond/)
-- [Real Python Tutorials](https://realpython.com/)
+🐍 [Python Documentation](https://docs.python.org/3/)
 
 ## Prerequisites
 
