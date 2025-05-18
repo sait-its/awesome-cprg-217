@@ -158,6 +158,10 @@ Integrate Python scripting with a powerful automation engine.
 *   Exploring `ansible-core` and how Python interacts with it.
 *   Configuring and controlling Ansible tasks using Python scripts.
 
+[Unit 8 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-08.html)
+
+[Ansible Demo](https://github.com/sait-lab/devops/blob/main/Ansible%20Demo.md)
+
 ---
 
 ### Tools and Environment
@@ -165,7 +169,7 @@ Integrate Python scripting with a powerful automation engine.
 *   **Python 3.10+:** Ensure you have a recent version of Python 3 installed.
 *   **Python package management tools:** pip, uv.
 *   **Python virtual environments:** venv, uv.
-*   **Text Editor/IDE:** A good editor like VS Code, PyCharm, Sublime Text, or NeoVim is recommended.
+*   **Text Editor/IDE:** A good editor like VS Code, PyCharm, Sublime Text, or NeoVim.
 *   **Terminal Emulator:** Windows Terminal, WezTerm, kitty, Ghostty, iTerm2.
 *   **Operating Systems:** Access to both a Linux environment (physical machine, or VM in VMware Workstaion) and a Windows environment will be necessary to complete all units.
 *   **Required Libraries:** Specific Python libraries like `os`, `sys`, `subprocess`, `json`, `pywin32` (for Windows), `socket`, and potentially Ansible-related Python libraries will be used.
