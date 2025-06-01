@@ -100,6 +100,8 @@ Dive into interacting with the Linux operating system using Python.
 
 [Unit 4 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-04.html)
 
+[Unit 4 Resources](./unit-04/unit-04.md)
+
 ---
 
 ### **Unit 5: Automating Windows System Tasks**
