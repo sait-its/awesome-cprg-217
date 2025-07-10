@@ -12,7 +12,7 @@ This course will guide you through the process of building robust Python scripts
 
 🗣️ [Discussions](https://github.com/sait-its/awesome-cprg-217/discussions)
 
-📚 Textbook [Automate the Boring Stuff with Python, 2nd Edition (free online ebook)](https://automatetheboringstuff.com/)
+📚 Textbook [Automate the Boring Stuff with Python, 3rd Edition (free online ebook)](https://automatetheboringstuff.com/)
 
 📚 Textbook [Python Crash Course, 3rd Edition](https://nostarch.com/python-crash-course-3rd-edition)
 
