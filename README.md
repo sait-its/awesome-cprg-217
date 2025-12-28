@@ -49,7 +49,7 @@ Get started with the essentials of Python scripting.
 *   Executing basic Linux commands from within Python scripts.
 *   Reviewing common programming components and best practices.
 
-[Unit 1 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-01.html)
+[Unit 1 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-01-slides.md)
 
 [Unit 1 Resources](./unit-01/unit-01.md)
 
@@ -66,7 +66,7 @@ Learn how to make your scripts more reliable by anticipating and handling errors
 *   Raise and handle exceptions.
 *   Error Handling strategies (LBYL and EAFP).
 
-[Unit 2 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-02.html)
+[Unit 2 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-02-slides.md)
 
 [Unit 2 Resources](./unit-02/unit-02.md)
 
@@ -83,7 +83,7 @@ Master techniques for working with data within your scripts.
 *   Understanding key terminology and concepts related to data types and data structures.
 *   Working with JSON.
 
-[Unit 3 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-03.html)
+[Unit 3 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-03-slides.md)
 
 ---
 
@@ -98,7 +98,7 @@ Dive into interacting with the Linux operating system using Python.
     *   Gather system information (CPU, memory, disk usage).
     *   Execute common Linux system administration tasks.
 
-[Unit 4 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-04.html)
+[Unit 4 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-04-slides.md)
 
 [Unit 4 Resources](./unit-04/unit-04.md)
 
@@ -115,7 +115,7 @@ Learn how to perform system administration tasks on Windows using Python.
     *   Gather Windows system information.
     *   Execute Windows system administration tasks.
 
-[Unit 5 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-05.html)
+[Unit 5 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-05-slides.md)
 
 [Unit 5 Resources](./unit-05/unit-05.md)
 
@@ -131,7 +131,7 @@ Make your scripts run automatically at specific times or intervals.
 *   Outlining the steps to create and manage `Cron` jobs.
 *   Creating scheduled tasks in `Crontab` using for Python scripts.
 
-[Unit 6 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-06.html)
+[Unit 6 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-06-slides.md)
 
 ---
 
@@ -145,7 +145,7 @@ Build more complex and scalable automation solutions.
 *   Developing scripts that run in sequence based on programming logic.
 *   Setting up and running a series of scheduled scripts automatically.
 
-[Unit 7 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-07.html)
+[Unit 7 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-07-slides.md)
 
 [Unit 7 Resources](./unit-07/unit-07.md)
 
@@ -160,7 +160,7 @@ Integrate Python scripting with a powerful automation engine.
 *   Exploring `ansible-core` and how Python interacts with it.
 *   Configuring and controlling Ansible tasks using Python scripts.
 
-[Unit 8 Slides](https://sait-its.github.io/cprg-217/cprg-217-unit-08.html)
+[Unit 8 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-08-slides.md)
 
 [Ansible Demo](https://github.com/sait-lab/devops/blob/main/Ansible%20Demo.md)
 
@@ -168,7 +168,7 @@ Integrate Python scripting with a powerful automation engine.
 
 ### Tools and Environment
 
-*   **Python 3.10+:** Ensure you have a recent version of Python 3 installed.
+*   **Python 3.12+:** Ensure you have a recent version of Python 3 installed.
 *   **Python package management tools:** pip, uv.
 *   **Python virtual environments:** venv, uv.
 *   **Text Editor/IDE:** A good editor like VS Code, PyCharm, Sublime Text, or NeoVim.
