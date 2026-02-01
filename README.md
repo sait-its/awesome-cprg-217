@@ -8,6 +8,8 @@ This course will guide you through the process of building robust Python scripts
 
 ## Resources
 
+🤯 [How to Effectively Use AI to Learn Coding (Without Fooling Yourself)](https://sait-its.github.io/viewer.html?file=cprg-217/use-ai-to-learn.md)
+
 📖 [Links to slide decks](https://sait-its.github.io/cprg-217/index.html)
 
 🗣️ [Discussions](https://github.com/sait-its/awesome-cprg-217/discussions)
