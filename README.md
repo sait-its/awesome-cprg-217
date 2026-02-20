@@ -22,6 +22,8 @@ This course will guide you through the process of building robust Python scripts
 
 📝 Recommended [Real Python Tutorials](https://realpython.com/)
 
+📝 Recommended [Dive Into Python3](http://getpython3.com/diveintopython3/)
+
 🐍 [Python Documentation](https://docs.python.org/3/)
 
 ## Prerequisites
