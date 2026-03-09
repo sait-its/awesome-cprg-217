@@ -55,7 +55,7 @@ Get started with the essentials of Python scripting.
 
 [Unit 1 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-01-slides.md)
 
-[Unit 1 Resources](./unit-01/README.md)
+[Unit 1 Resources](./unit-01)
 
 ---
 
@@ -72,7 +72,7 @@ Learn how to make your scripts more reliable by anticipating and handling errors
 
 [Unit 2 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-02-slides.md)
 
-[Unit 2 Resources](./unit-02/README.md)
+[Unit 2 Resources](./unit-02)
 
 ---
 
@@ -89,7 +89,7 @@ Master techniques for working with data within your scripts.
 
 [Unit 3 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-03-slides.md)
 
-[Unit 3 Resources](./unit-03/README.md)
+[Unit 3 Resources](./unit-03)
 
 ---
 
@@ -106,7 +106,7 @@ Dive into interacting with the Linux operating system using Python.
 
 [Unit 4 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-04-slides.md)
 
-[Unit 4 Resources](./unit-04/README.md)
+[Unit 4 Resources](./unit-04)
 
 ---
 
@@ -123,7 +123,7 @@ Learn how to perform system administration tasks on Windows using Python.
 
 [Unit 5 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-05-slides.md)
 
-[Unit 5 Resources](./unit-05/README.md)
+[Unit 5 Resources](./unit-05)
 
 ---
 
@@ -153,7 +153,7 @@ Build more complex and scalable automation solutions.
 
 [Unit 7 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-07-slides.md)
 
-[Unit 7 Resources](./unit-07/README.md)
+[Unit 7 Resources](./unit-07)
 
 ---
 
