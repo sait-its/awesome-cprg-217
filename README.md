@@ -24,6 +24,8 @@ This course will guide you through the process of building robust Python scripts
 
 📝 Recommended [Dive Into Python3](http://getpython3.com/diveintopython3/)
 
+📝 [Python 3 Module of the Week](https://pymotw.com/3/)
+
 🐍 [Python Documentation](https://docs.python.org/3/)
 
 ## Prerequisites
@@ -139,6 +141,8 @@ Make your scripts run automatically at specific times or intervals.
 
 [Unit 6 Slides](https://sait-its.github.io/viewer.html?file=cprg-217/unit-06-slides.md)
 
+[Unit 6 Resources](./unit-06)
+
 ---
 
 ### **Unit 7: Scalable Automation and Networking**
@@ -174,13 +178,13 @@ Integrate Python scripting with a powerful automation engine.
 
 ### Tools and Environment
 
-*   **Python 3.12+:** Ensure you have a recent version of Python 3 installed.
-*   **Python package management tools:** pip, uv.
-*   **Python virtual environments:** venv, uv.
-*   **Text Editor/IDE:** A good editor like VS Code, PyCharm, Sublime Text, Zed, or NeoVim.
-*   **Terminal Emulator:** Windows Terminal, WezTerm, kitty, Ghostty, iTerm2.
+*   **Python 3.12+:** Ensure you have a recent version of [Python 3](https://www.python.org/downloads/) installed.
+*   **Python package management tools:** [pip](https://packaging.python.org/en/latest/tutorials/installing-packages/), [uv](https://docs.astral.sh/uv/).
+*   **Python virtual environments:** [venv](https://docs.python.org/3/library/venv.html), [uv](https://docs.astral.sh/uv/).
+*   **Text Editor/IDE:** A good editor like [Visual Studio Code](https://code.visualstudio.com/), [PyCharm](https://www.jetbrains.com/pycharm/), [Notepad++](https://notepad-plus-plus.org/), [Sublime Text](https://www.sublimetext.com/), [Zed](https://zed.dev/), or [NeoVim](https://neovim.io/).
+*   **Terminal Emulator:** [Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/), [WezTerm](https://wezterm.org/), [kitty](https://sw.kovidgoyal.net/kitty/), [Ghostty](https://ghostty.org/), or [iTerm2](https://iterm2.com/).
 *   **Operating Systems:** Access to both a Linux environment (physical machine, or VM in VMware Workstaion) and a Windows environment will be necessary to complete all units.
-*   **Required Libraries:** Specific Python libraries like `os`, `sys`, `subprocess`, `json`, `pywin32` (for Windows), `socket`, and potentially Ansible-related Python libraries will be used.
+*   **Required Libraries:** Specific Python libraries like `os`, `sys`, `subprocess`, `json`, `pywin32` (for Windows), `socket`, `requests` and potentially Ansible-related Python libraries will be used.
 
 ---
 
