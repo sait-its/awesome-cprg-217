@@ -20,11 +20,7 @@ https://github.com/sait-its/awesome-cprg-217/blob/main/unit-07/file-transfer-dem
 
 https://pymotw.com/3/socketserver/index.html
 
-### 📚 Automate the Boring Stuff with Python (free)
-
-Chapter 9, 10 of https://automatetheboringstuff.com/ 
-
 ### 📚 Python Crash Course
 
-Chapter 10 - Files and exceptions
+Chapter 17 - Working with APIs
 
